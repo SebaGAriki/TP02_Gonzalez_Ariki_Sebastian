@@ -1,5 +1,13 @@
-class Shooter{
+class Shooter extends GameObject{
   private int cantVidaNave;
+  
+  //----- CONSTRUCTORES -----
+  public Shooter(){
+  }
+  
+  //----- METODOS -----
+  public void mover(){ 
+  }
   
   //----- METODOS ACESSORES -----
   public void setCantVidaNave(int cantVidaNave){

@@ -32,4 +32,4 @@ class JoyPad{
   public boolean isLeftPressed(){
     return this.leftPressed;
   }
-}
+}  
