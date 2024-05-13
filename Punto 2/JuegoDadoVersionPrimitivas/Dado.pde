@@ -1,11 +1,10 @@
 class Dado extends GameObject{
   private float caraDado;
-  private int[] valorDado;
+  private float[] valorDado;
   
   //----- CONSTRUCTORES -----
   public Dado(){
-    caraDado = 0;
-    valorDado = new int[10];
+    valorDado = new float[50];
   }
   
   //----- METODOS -----
@@ -68,10 +67,10 @@ class Dado extends GameObject{
   }
   
   //----- METODOS ACESSORES -----
-  public void setValorDado(int[] valorDado){
+  public void setValorDado(float[] valorDado){
     this.valorDado = valorDado;
   }
-  public int[] getValorDado(){
+  public float[] getValorDado(){
     return this.valorDado;
   }
   
